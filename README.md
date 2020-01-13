@@ -3,12 +3,6 @@ identify image format
 
 ```Simple Demo
 
-import (
-    "os"
-    "log"
-    "github.com/fpagyu/whatimage"
-)
-
 func main() {
 	files := []string{
 		"32851.jpg",
