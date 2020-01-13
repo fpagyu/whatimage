@@ -1,0 +1,2 @@
+# whatimage
+identify image format
