@@ -17,6 +17,7 @@ func main() {
 		    continue
 		}
 		log.Logf("%s's format: %s", files[i], IdentifyImage(f))
+		f.Close()
 	}
 }
 

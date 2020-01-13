@@ -14,4 +14,5 @@ func TestIdentifyJPEG(t *testing.T) {
 
 	r := IdentifyJpeg(f)
 	t.Log("format: ", r)
+	f.Close()
 }

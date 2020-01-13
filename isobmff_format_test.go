@@ -13,4 +13,5 @@ func TestIdentifyISOBmff(t *testing.T) {
 	}
 
 	t.Log("========= format ==========: ", IdentifyISOBmff(reader))
+	reader.Close()
 }

@@ -18,5 +18,6 @@ func TestIdentifyImage(t *testing.T) {
 			return
 		}
 		t.Log("format: ", IdentifyImage(f))
+		f.Close()
 	}
 }
