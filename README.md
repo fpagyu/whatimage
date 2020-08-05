@@ -1,6 +1,8 @@
 # whatimage
 identify image format
 
+It's golang implemention of [whatimage]('https://github.com/david-poirier-csn/whatimage')
+
 ```Simple Demo
 
 func main() {
